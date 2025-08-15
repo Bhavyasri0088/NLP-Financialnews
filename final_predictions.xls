@@ -1,0 +1,6 @@
+Text,Actual_Label,Predicted_Label
+"I love this product, it's amazing",1,1
+"This is terrible, would not recommend",0,0
+Neutral opinion about this item,2,2
+Great experience with customer service,1,1
+Disappointed with the quality,0,0
