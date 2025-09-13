@@ -1,4 +1,4 @@
-📊 Indian Financial News — Data Analytics Dashboard
+i📊 Indian Financial News — Data Analytics Dashboard
 
 This project analyzes Indian financial news articles (2003–2020) and builds an interactive Tableau dashboard to uncover market trends, publishing behavior, company coverage, and recurring headlines. The dashboard provides data-driven insights into the Indian financial ecosystem.
 
@@ -101,8 +101,9 @@ Aspiring Data Analyst | Google Advanced Data Analytics Certified
 
 Skilled in SQL, Python, Tableau, Power BI, Excel
 
-Portfolio: https://public.tableau.com/app/profile/bhavya.goddati/viz/Financialnews2k20-23/IndianFinancialNewsDashboard20032020?publish=yes| https://v0-new-project-b561nvivkgg.vercel.app/| https://www.linkedin.com/in/goddati-bhavyasri-02ab37308
-
+Portfolio: https://v0-new-project-b561nvivkgg.vercel.app/
+ Linkedin: https://www.linkedin.com/in/goddati-bhavyasri-02ab37308
+GitHub:https://github.com/Bhavyasri0088/NLP-Financialnews
 
 📩 Contact: goddatibhavya@gmail.com
 
