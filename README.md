@@ -1,118 +1,114 @@
-# Indian Financial News — NLP Project
+📊 Indian Financial News — Data Analytics Dashboard
 
-This project focuses on **Natural Language Processing (NLP) for Indian Financial News**. We aim to preprocess, analyze, and classify financial news headlines/articles from Indian sources using various machine learning (ML) algorithms. The workflow covers data cleaning, feature extraction, NLP techniques, model training, and evaluation.
+This project analyzes Indian financial news articles (2003–2020) and builds an interactive Tableau dashboard to uncover market trends, publishing behavior, company coverage, and recurring headlines. The dashboard provides data-driven insights into the Indian financial ecosystem.
 
----
-
-## Project Overview
-
-- **Objective:**  
-  Build and evaluate classifiers to predict sentiment or category from Indian financial news articles/headlines.
-- **Tasks Covered:**  
-  - Data loading, cleaning, and merging  
-  - Text preprocessing (tokenization, lemmatization, removing stopwords)  
-  - Feature engineering (TF-IDF, vectorization)  
-  - Model training (Logistic Regression, Random Forest, XGBoost, Naive Bayes)  
-  - Model evaluation (classification report, confusion matrix, ROC-AUC)  
-  - Model persistence (saving with pickle/joblib)  
-  - EDA and visualization (matplotlib, seaborn)
+🔗 GitHub Repo: https://github.com/Bhavyasri0088/NLP-Financialnews
+📈 Interactive Dashboard: 
+https://public.tableau.com/app/profile/bhavya.goddati/viz/Financialnews2k20-23/IndianFinancialNewsDashboard20032020?publish=yes
 
 ---
 
-## Data Dictionary
+🚀 Project Highlights
 
-| Column         | Description                              |
-|----------------|------------------------------------------|
-| `headline`     | News headline text                       |
-| `article`      | Full news article text (if available)    |
-| `date`         | Date of publication                      |
-| `sentiment`    | Label: sentiment/category (target)       |
-| `source`       | (Optional) News source                   |
+Analyzed 10,000+ Indian financial news articles across 17 years (2003–2020).
 
-> **Note:** Please adjust column names to match your actual dataset.
+Built an interactive Tableau dashboard with multiple views:
+
+Articles Over Time → Trends in financial reporting volume across years.
+
+Articles by Weekday → Publishing cycle patterns (weekdays vs. weekends).
+
+Articles by Company → Frequency of company mentions (e.g., SBI and others).
+
+Top Headlines → Recurring financial themes and impactful stories.
+
+
+Delivered business insights into publishing intensity, market focus, and recurring news drivers.
+
+
 
 ---
 
-## File Structure
+📊 Dashboard Insights
 
-```
-NLP-Financialnews/
+1. Articles Over Time (2003–2020):
+
+News coverage increased significantly after 2008, reflecting the global financial crisis and its impact on Indian markets.
+
+Peaks observed around 2015–2017, aligning with major banking/market reforms and economic events.
+
+
+
+2. Articles by Weekday:
+
+Financial reporting is highest mid-week (Tuesday–Thursday).
+
+Weekends show very low activity, suggesting analysts and traders rely on weekday updates.
+
+
+
+3. Articles by Company:
+
+SBI (State Bank of India) appears frequently, showing strong media attention on the banking sector.
+
+This type of analysis can be extended to other institutions to compare coverage.
+
+
+
+4. Top Headlines:
+
+Frequently recurring headlines highlight banking, stock market indices (NSE, BSE, Sensex, NIFTY), and economic growth/decline.
+
+Themes reveal investor sentiment and market-moving news across years.
+
+
+
+
+
+---
+
+📂 Repository Structure
+
+Indian-Financial-News-Analytics/
 │
-├── IndianFinancialNews_merged_final.ipynb   # Main notebook with full workflow
-├── [data files]/                           # Place your CSV/data files here
-├── models/                                # Saved models/vectorizers (if any)
-├── README.md                              # This file
-```
+├── IndianFinancialNews_merged_final.ipynb   # Data cleaning & prep for Tableau
+├── data/                                   # Source datasets
+├── dashboard/                              # Tableau workbook & PDF export
+├── README.md                               # Project documentation
+
 
 ---
 
-## Setup & Installation
+🔑 Skills Demonstrated
 
-1. **Clone the repo and navigate to the project directory:**
-   ```bash
-   git clone https://github.com/Bhavyasri0088/NLP-Financialnews.git
-   cd NLP-Financialnews
-   ```
+Data Analytics: Trend analysis, publishing cycle analysis, company coverage tracking.
 
-2. **Create a virtual environment & activate:**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # for Linux/Mac
-   venv\Scripts\activate     # for Windows
-   ```
+Data Visualization: Tableau dashboards with filters and interactive views.
 
-3. **Install required packages:**
-   ```bash
-   pip install pandas numpy scikit-learn matplotlib seaborn nltk spacy xgboost joblib
-   ```
+Business Insights: Derived real-world conclusions about publishing behavior, market focus shifts, and recurring financial themes.
 
-4. **Download NLTK data (if running for the first time):**
-   ```python
-   import nltk
-   nltk.download('punkt')
-   nltk.download('stopwords')
-   nltk.download('wordnet')
-   ```
+Data Preparation: Cleaned and structured raw datasets for dashboard-ready analysis.
+
+
 
 ---
 
-## How to Run
+📌 About the Author
 
-1. **Place your data files in the project directory** (adjust paths if needed).
-2. **Open and run the notebook:**
-   - Use Jupyter Notebook, JupyterLab, or VS Code.
-   - Run all cells from top to bottom.
-3. **Adjust any file paths as needed** in code cells referencing data or output files.
-4. **Models and vectorizers** may be saved in the `models/` directory for reuse.
+👩‍💻 Goddati Bhavyasri
 
----
+Aspiring Data Analyst | Google Advanced Data Analytics Certified
 
-## Key Technologies
+Skilled in SQL, Python, Tableau, Power BI, Excel
 
-- **Pandas, NumPy:** Data loading, cleaning, manipulation
-- **NLTK:** Tokenization, stopwords, lemmatization
-- **Scikit-learn:** ML models, feature extraction, evaluation
-- **XGBoost:** Gradient boosting classifier
-- **Matplotlib, Seaborn:** Visualization
-- **Pickle/Joblib:** Model persistence
+Portfolio: https://public.tableau.com/app/profile/bhavya.goddati/viz/Financialnews2k20-23/IndianFinancialNewsDashboard20032020?publish=yes| https://v0-new-project-b561nvivkgg.vercel.app/| https://www.linkedin.com/in/goddati-bhavyasri-02ab37308
+
+
+📩 Contact: goddatibhavya@gmail.com
+
 
 ---
 
-## Reproducibility
+✅ This project demonstrates how financial reporting data can be transformed into interactive dashboards that reveal when, how, and what financial topics dominate Indian media — turning raw data into business-ready insights.
 
-- Set random seeds where possible for reproducible results.
-- Keep a requirements.txt for exact versions (optional).
-- Save trained models/vectorizers for consistent inference.
 
----
-
-## Authors
-
-Goddati.Bhavyasri
-
-## contact
-goddatibhavya@gmail.com
-
-For questions, open an issue or contact goddatibhavya@gmail.com
-
-```
