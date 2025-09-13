@@ -3,6 +3,7 @@ i📊 Indian Financial News — Data Analytics Dashboard
 This project analyzes Indian financial news articles (2003–2020) and builds an interactive Tableau dashboard to uncover market trends, publishing behavior, company coverage, and recurring headlines. The dashboard provides data-driven insights into the Indian financial ecosystem.
 
 🔗 GitHub Repo: https://github.com/Bhavyasri0088/NLP-Financialnews
+
 📈 Interactive Dashboard: 
 https://public.tableau.com/app/profile/bhavya.goddati/viz/Financialnews2k20-23/IndianFinancialNewsDashboard20032020?publish=yes
 
