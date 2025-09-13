@@ -1,116 +1,85 @@
-i📊 Indian Financial News — Data Analytics Dashboard
+# 📊 Indian Financial News Dashboard (2003–2020)
 
-This project analyzes Indian financial news articles (2003–2020) and builds an interactive Tableau dashboard to uncover market trends, publishing behavior, company coverage, and recurring headlines. The dashboard provides data-driven insights into the Indian financial ecosystem.
+This project focuses on **analyzing 17 years of Indian financial news data** and building an **interactive dashboard** to uncover trends in publication frequency, company mentions, and headline patterns.  
 
-🔗 GitHub Repo: https://github.com/Bhavyasri0088/NLP-Financialnews
-
-📈 Interactive Dashboard: 
-https://public.tableau.com/app/profile/bhavya.goddati/viz/Financialnews2k20-23/IndianFinancialNewsDashboard20032020?publish=yes
+The goal was to transform raw financial news data into **actionable business insights** using **Power BI / Tableau**.
 
 ---
 
-🚀 Project Highlights
+## 🔗 Links & Profiles  
 
-Analyzed 49,000+ Indian financial news articles across 17 years (2003–2020).
-
-Built an interactive Tableau dashboard with multiple views:
-
-Articles Over Time → Trends in financial reporting volume across years.
-
-Articles by Weekday → Publishing cycle patterns (weekdays vs. weekends).
-
-Articles by Company → Frequency of company mentions (e.g., SBI and others).
-
-Top Headlines → Recurring financial themes and impactful stories.
-
-
-Delivered business insights into publishing intensity, market focus, and recurring news drivers.
-
-
+### 📊 Quick Links
+- 🔗 [LinkedIn – Bhavyasri Goddati](https://www.linkedin.com/in/goddati-bhavyasri-02ab37308)  
+- 📊 [Live Dashboard on Tableau Public](https://public.tableau.com/app/profile/bhavya.goddati/viz/Financialnews2k20-23/IndianFinancialNewsDashboard20032020?publish=yes)  
+- 💻 [GitHub Repository – Project Files](https://github.com/Bhavyasri0088/NLP-Financialnews)
 
 ---
 
-📊 Dashboard Insights
-
-1. Articles Over Time (2003–2020):
-
-News coverage increased significantly after 2008, reflecting the global financial crisis and its impact on Indian markets.
-
-Peaks observed around 2015–2017, aligning with major banking/market reforms and economic events.
-
-
-
-2. Articles by Weekday:
-
-Financial reporting is highest mid-week (Tuesday–Thursday).
-
-Weekends show very low activity, suggesting analysts and traders rely on weekday updates.
-
-
-
-3. Articles by Company:
-
-SBI (State Bank of India) appears frequently, showing strong media attention on the banking sector.
-
-This type of analysis can be extended to other institutions to compare coverage.
-
-
-
-4. Top Headlines:
-
-Frequently recurring headlines highlight banking, stock market indices (NSE, BSE, Sensex, NIFTY), and economic growth/decline.
-
-Themes reveal investor sentiment and market-moving news across years.
-
-
-
-
+### 🖼️ Badge Style
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Bhavyasri-blue?logo=linkedin)](https://www.linkedin.com/in/goddati-bhavyasri-02ab37308)  
+[![Tableau](https://img.shields.io/badge/Tableau-Dashboard-orange?logo=tableau)](https://public.tableau.com/app/profile/bhavya.goddati/viz/Financialnews2k20-23/IndianFinancialNewsDashboard20032020?publish=yes)  
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/Bhavyasri0088/NLP-Financialnews)
 
 ---
 
-📂 Repository Structure
+## 🧐 Problem Statement  
 
-Indian-Financial-News-Analytics/
-│
-├── IndianFinancialNews_merged_final.ipynb   # Data cleaning & prep for Tableau
-├── data/                                   # Source datasets
-├── dashboard/                              # Tableau workbook & PDF export
-├── README.md                               # Project documentation
+Financial markets are heavily influenced by news coverage. Investors, analysts, and policymakers rely on news to gauge **sentiment, frequency, and focus of coverage**. Without structured analysis, it’s difficult to answer questions like:  
 
-
----
-
-🔑 Skills Demonstrated
-
-Data Analytics: Trend analysis, publishing cycle analysis, company coverage tracking.
-
-Data Visualization: Tableau dashboards with filters and interactive views.
-
-Business Insights: Derived real-world conclusions about publishing behavior, market focus shifts, and recurring financial themes.
-
-Data Preparation: Cleaned and structured raw datasets for dashboard-ready analysis.
-
-
+- Which companies are most frequently covered?  
+- How has news coverage evolved over the years?  
+- Are there patterns in publishing by weekdays?  
+- What are the most recurring financial headlines?  
 
 ---
 
-📌 About the Author
-
-👩‍💻 Goddati Bhavyasri
-
-Aspiring Data Analyst | Google Advanced Data Analytics Certified
-
-Skilled in SQL, Python, Tableau, Power BI, Excel
-
-Portfolio: https://v0-new-project-b561nvivkgg.vercel.app/
- Linkedin: https://www.linkedin.com/in/goddati-bhavyasri-02ab37308
-GitHub:https://github.com/Bhavyasri0088/NLP-Financialnews
-
-📩 Contact: goddatibhavya@gmail.com
-
+## 🎯 Objectives
+1. Perform **data preprocessing and cleaning** on 2003–2020 Indian financial news data.  
+2. Build an **interactive dashboard** to explore:  
+   - Articles published over time.  
+   - Company-wise article distribution.  
+   - Day-of-week publishing trends.  
+   - Top recurring headlines.  
+3. Deliver **business insights** to support analysts and decision-makers.  
 
 ---
 
-✅ This project demonstrates how financial reporting data can be transformed into interactive dashboards that reveal when, how, and what financial topics dominate Indian media — turning raw data into business-ready insights.
+## 📂 Dataset
+- **Source**: Indian financial news articles (2003–2020).  
+- **Features**:  
+  - 📅 Date of publication  
+  - 🏦 Company name (e.g., SBI)  
+  - 📰 Title / Headline  
 
+---
 
+## 🛠️ Tools & Technologies
+- **Power BI / Tableau** → Dashboard creation & interactive visualizations  
+- **Python (Pandas, NumPy)** → Data cleaning & preprocessing  
+- **Excel** → Data validation & preprocessing support  
+
+---
+
+## 📊 Dashboard Features
+✔ **Articles Over Time (2003–2020)** → Track growth of financial reporting across 17 years.  
+✔ **Articles by Company** → Analyze company-specific coverage (e.g., SBI).  
+✔ **Articles by Weekday** → Understand publishing patterns by day of the week.  
+✔ **Top Headlines** → Identify recurring financial themes and events.  
+
+---
+
+## 📈 Key Insights
+- 📅 **Growth Trend**: Financial news articles rose significantly after 2010.  
+- 🏦 **Company Focus**: SBI dominated coverage among financial institutions.  
+- 📆 **Publishing Cycle**: Wednesday & Thursday had the highest volume of financial reporting.  
+- 📰 **Recurring Themes**: Certain financial events and company mentions repeatedly shaped the narrative.  
+
+---
+
+## 📞 Contact Information
+
+You can reach me through the following channels:
+
+- **Email**: [goddatibhavya@gmail.com](mailto:goddatibhavya@gmail.com)  
+- **LinkedIn**: [Bhavyasri Goddati](https://www.linkedin.com/in/goddati-bhavyasri-02ab37308)  
+- **GitHub**: [Bhavyasri0088](https://github.com/Bhavyasri0088)
