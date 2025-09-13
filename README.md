@@ -71,6 +71,11 @@ Financial markets are heavily influenced by news coverage. Investors, analysts, 
 - **Recurring Themes**: Certain financial events and company mentions repeatedly shaped the narrative.  
 
 ---
+<h2>🖼️ Dashboard Preview</h2>
+<img src="dashboard.png" alt="Indian Financial News Dashboard" width="800">
+<p><i>(Dashboard visualization: Articles Over Time, Articles by Company, Top Headlines, Articles by Weekday)</i></p>
+
+----
 
 ## Contact Information
 
