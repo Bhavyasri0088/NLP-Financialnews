@@ -11,7 +11,7 @@ https://public.tableau.com/app/profile/bhavya.goddati/viz/Financialnews2k20-23/I
 
 🚀 Project Highlights
 
-Analyzed 10,000+ Indian financial news articles across 17 years (2003–2020).
+Analyzed 49,000+ Indian financial news articles across 17 years (2003–2020).
 
 Built an interactive Tableau dashboard with multiple views:
 
